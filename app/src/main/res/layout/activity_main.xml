@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/camera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size_medium"
+            android:text="Camera"/>
+        <TextView
+            android:id="@+id/permissions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size_medium"
+            android:text="Permissions"/>
+        <TextView
+            android:id="@+id/sensors"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size_medium"
+            android:text="Sensors"/>
+        <TextView
+            android:id="@+id/bluetooth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size_medium"
+            android:text="Bluetooth"/>
+        <TextView
+            android:id="@+id/wifi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size_medium"
+            android:text="Wi-Fi"/>
+        <TextView
+            android:id="@+id/sms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size_medium"
+            android:text="SMS"/>
+        <TextView
+            android:id="@+id/telephony"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size_medium"
+            android:text="Telephony"/>
+
+        <TextView
+            android:id="@+id/gps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size_medium"
+            android:text="GPS"/>
+        <TextView
+            android:id="@+id/location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size_medium"
+            android:text="Location Manager"/>
+        <TextView
+            android:id="@+id/maps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size_medium"
+            android:text="Google Maps"/>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

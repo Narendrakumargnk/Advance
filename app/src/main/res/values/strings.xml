@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Advance</string>
+    <string name="title_activity_camera">Camera</string>
+    <string name="title_activity_camara_test">Camara_test</string>
+    <string name="title_activity_camara_new">CamaraNew</string>
+    <string name="title_activity_camera_preview">CameraPreview</string>
+</resources>
